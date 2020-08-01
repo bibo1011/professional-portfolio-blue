@@ -48,6 +48,15 @@ header nav ul li a {
     font-weight: bolder;
     font-size: 1.5vw;
 }
+span {
+    font-weight: bolder;
+}
+
+/* recent photo*/
+.img {
+    opacity: 0.5;
+    width: 31.3%;
+}
 .space {
     background-image: url("../images/space.jpg");
     background-size: cover;
@@ -61,13 +70,25 @@ header nav ul li a {
 .background {
     background-color: darkcyan;
 }
+
+/* cool subtitle here */
 .cool {
     padding: 10px;
     margin: 20px 50px 10px 20px;
     color: aqua;
     background: pink;
 }
+
+/* flexbox container for about me and work section */
 .its-all {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.its-all-contact {
+    margin-top: 115px;
     display: flex;
     flex-wrap: wrap;
     height: 250px;
@@ -88,24 +109,97 @@ header nav ul li a {
     font-size: 20px;
     margin-bottom: 230px;
 }
+.box-right-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2 70%;
+    padding: 0 40px 30px;
+    border-left: 5px black solid;
+    font-size: 14px;
+    margin-bottom: 230px;
+}
+
+/* grid container for work */
 .grid-right {
     display: grid;
-     max-width: 940px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1px;
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    
 }
 .grid-item {
-    padding 1em;
-    background-color: orange;
     border: solid;
-    color: black;
+    border-color: black;
+    color: darkcyan;
+    background-color: peachpuff;
+}
+.grid-item-text-1 {
+    background-color: pink;
+    padding: 0 25px 0 10px;
+    margin: 0 0 20px 0;
+}
+.grid-item-text {
+    background-color: pink;
+    padding: 0 10px 0 10px;
+    margin: 0 0 5px 0;
+    font-size: 10px;
 }
 .sat-1 {
-	 grid-column-start: 1; 
-  grid-column-end: 3; 
-  grid-row-start: 1; 
-  grid-row-end: 3; 	
+	grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+    background-image: url(../images/Oasis.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: 20px;
+}
+.sat-2 {  
+    background-image: url(../images/kabik.PNG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.sat-3 {  
+    background-image: url(../images/freemason.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.sat-4 {  
+    background-image: url(../images/sand.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.sat-5 {  
+    background-image: url(../images/moon.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+address {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
 }
