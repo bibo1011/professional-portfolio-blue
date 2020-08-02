@@ -7,4 +7,6 @@
 ##Website:  https://bibo1011.github.io/professional-portfolio-blue/
 
 ##Screenshot:
-![Alt text](../professional-portfolio-blue/assets/images/screenshot-chal2/)
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
