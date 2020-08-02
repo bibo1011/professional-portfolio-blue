@@ -22,14 +22,14 @@ header h1 {
     margin: 0;
     font-weight: bold;
     font-size: 36px;
-    color: darkblue;
+    
 }
 .bad {
 color: darkred;
 }
 header a {
     text-decoration: none;
-    color: darkblue;
+    color: darkblue
 }
 header nav {
     margin: 7px 0;
@@ -42,11 +42,13 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+
 }
 header nav ul li a {
     padding: 10px 15px;
     font-weight: bolder;
     font-size: 1.5vw;
+    color: black;
 }
 span {
     font-weight: bolder;
@@ -56,16 +58,17 @@ span {
 .img {
     opacity: 0.5;
     width: 31.3%;
+    margin-left: 600px;
 }
 .space {
     background-image: url("../images/space.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-end;
-    height: 300px;
+   
 }
 .background {
     background-color: darkcyan;
@@ -110,13 +113,11 @@ span {
     margin-bottom: 230px;
 }
 .box-right-contact {
-    display: flex;
+    display: flex; 
     justify-content: space-around;
     align-items: center;
     flex: 2 70%;
-    padding: 0 40px 30px;
     border-left: 5px black solid;
-    font-size: 14px;
     margin-bottom: 230px;
 }
 
@@ -155,10 +156,14 @@ span {
     grid-row-end: 3; 
     background-image: url(../images/Oasis.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     top: 20px;
+}
+.sat-1:hover {
+    opacity: 0.5;
 }
 .sat-2 {  
     background-image: url(../images/kabik.PNG);
@@ -169,6 +174,9 @@ span {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+.sat-2:hover {
+    opacity: 0.5;
+}
 .sat-3 {  
     background-image: url(../images/freemason.jpg);
     background-size: cover;
@@ -177,6 +185,9 @@ span {
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: flex-end;
+}
+.sat-3:hover {
+    opacity: 0.5;
 }
 .sat-4 {  
     background-image: url(../images/sand.jpg);
@@ -187,6 +198,9 @@ span {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+.sat-4:hover {
+    opacity: 0.5;
+}
 .sat-5 {  
     background-image: url(../images/moon.JPG);
     background-size: cover;
@@ -196,10 +210,121 @@ span {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+.sat-5:hover {
+    opacity: 0.5;
+}
 address {
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+    .hero-cta, .hero-form {
+      width: 100%;
+    }
+    
+    .hero-cta {
+      text-align: center;
+    }
+    .section-title {
+      width: 80%;
+    }
+    
+    .trainer {
+      flex: 0 70%;
+    }
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero-form button {
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .trainer {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+    .contact-form {
+      order: 3;
+    }
 }
