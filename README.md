@@ -8,5 +8,5 @@
 
 ##Screenshot:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/bibo1011/professional-portfolio-blue/assets/images/screenshots-chal2.png "portfolio blue")
 
