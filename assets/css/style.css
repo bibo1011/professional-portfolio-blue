@@ -231,6 +231,7 @@ address {
     header h1 {
       width: 100%;
       text-align: center;
+      padding: 10px 25px 10px 60px;
     }
   
     header nav ul {
@@ -256,34 +257,31 @@ address {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-    section {
-      padding: 30px 15px;
+    header h1 {
+      padding: 10px 25px 10px 60px
     }
-    section {
-      padding: 30px 15px;
+    .about-me, .work, .contact-me, .its-all, .its-all-contact {
+      margin: 20px 50px 80px 0;
+
     }
+    .box-right-contact {
+      flex-wrap: wrap;
+      margin: 60px 0 0 0;
+    }
+    .img {
+      margin-left: 0;
+    }
+    .contact-me {
+
+    }
+    .box-left {
+      font-size: 20px;
+    }
+
   
-    .step h3 {
-      flex: 1 100%;
-      text-align: center;
-    }
   
-    .step-info {
-      flex: 2 100%;
-      text-align: center;
-      justify-content: center;
-    }
   
-    .step-img {
-      flex: 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .step-text {
-      flex: 100%;  
-    }
+   
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
