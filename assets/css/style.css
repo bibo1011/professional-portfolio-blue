@@ -58,7 +58,7 @@ span {
 .img {
     opacity: 0.5;
     width: 31.3%;
-    margin-left: 600px;
+    margin-left: 360px;
 }
 .space {
     background-image: url("../images/space.jpg");
@@ -66,7 +66,6 @@ span {
     background-position: center;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: flex-end;
    
 }
@@ -277,39 +276,11 @@ address {
     .box-left {
       font-size: 20px;
     }
-
-  
-  
-  
-   
-}
+  }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
+  header h1 {
+    padding: 10px 50px 10px 60px
     }
-  
-    .section-title {
-      width: 95%;
-    }
-  
-    .intro p {
-      width: 100%;
-    }
-  
-    .trainer {
-      flex: 0 100%;
-    }
-  
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
-    }
-    .contact-form {
-      order: 3;
-    }
-}
+  }
