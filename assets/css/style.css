@@ -243,27 +243,14 @@ address {
       font-size: 20px;
     }
   
-    footer h2, footer div {
-      text-align: center;
-      width: 100%;
+    .about-me, .work, .contact-me, .its-all, .its-all-contact {
+      margin-right: 75px;
     }
-    .hero-cta, .hero-form {
-      width: 100%;
+    .box-right-contact {
+      flex-wrap: wrap;
     }
-    
-    .hero-cta {
-      text-align: center;
-    }
-    .section-title {
-      width: 80%;
-    }
-    
-    .trainer {
-      flex: 0 70%;
-    }
-    
-    .contact-info iframe{
-      flex: 1 100%;
+    .img {
+      margin-left: 0;
     }
 }
 
