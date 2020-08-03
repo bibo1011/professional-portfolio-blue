@@ -15,6 +15,8 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 header h1 {
     background-color: darkcyan;
@@ -22,7 +24,6 @@ header h1 {
     margin: 0;
     font-weight: bold;
     font-size: 36px;
-    
 }
 .bad {
 color: darkred;
@@ -149,7 +150,7 @@ span {
     font-size: 10px;
 }
 .sat-1 {
-	grid-column-start: 1; 
+	  grid-column-start: 1; 
     grid-column-end: 3; 
     grid-row-start: 1; 
     grid-row-end: 3; 
