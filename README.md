@@ -4,9 +4,9 @@
 *HTML
 *CSS
 
-##Website:  https://bibo1011.github.io/professional-portfolio-blue/
+## Website:  https://bibo1011.github.io/professional-portfolio-blue/
 
-##Screenshot:
+## Screenshot:
 
-![alt text](../assets/images/screenshots-chal2.png "portfolio blue")
+![alt text](https://github.com/bibo1011/professional-portfolio-blue/assets/images/screenshots-chal2.png "portfolio blue")
 
