@@ -8,5 +8,5 @@
 
 ##Screenshot:
 
-![alt text](https://github.com/bibo1011/professional-portfolio-blue/assets/images/screenshots-chal2.png "portfolio blue")
+![alt text](../assets/images/screenshots-chal2.png "portfolio blue")
 
