@@ -57,7 +57,10 @@ span {
 .img {
     opacity: 0.5;
     width: 31.3%;
-    margin-left: 360px;
+    left: 50%;
+}
+.img:hover{
+  transform: scale(1.5); 
 }
 .space {
     background-image: url("../images/space.jpg");
@@ -77,7 +80,8 @@ span {
     padding: 10px;
     margin: 20px 50px 10px 20px;
     color: aqua;
-    background: pink;
+    /* background: pink; */
+    opacity: 0.5;
 }
 
 /* flexbox container for about me and work section */
@@ -140,12 +144,14 @@ span {
     background-color: pink;
     padding: 0 25px 0 10px;
     margin: 0 0 20px 0;
+    opacity: 0.5;
 }
 .grid-item-text {
     background-color: pink;
     padding: 0 10px 0 10px;
     margin: 0 0 5px 0;
     font-size: 10px;
+    opacity: 0.5;
 }
 .sat-1 {
 	  grid-column-start: 1; 
@@ -161,7 +167,8 @@ span {
     top: 20px;
 }
 .sat-1:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    transform: scale(1.5); 
 }
 .sat-2 {  
     background-image: url(../images/kabik.PNG);
@@ -173,7 +180,8 @@ span {
     align-items: flex-end;
 }
 .sat-2:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    transform: scale(1.5); 
 }
 .sat-3 {  
     background-image: url(../images/freemason.jpg);
@@ -185,7 +193,8 @@ span {
     align-items: flex-end;
 }
 .sat-3:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    transform: scale(1.5); 
 }
 .sat-4 {  
     background-image: url(../images/sand.jpg);
@@ -197,7 +206,8 @@ span {
     align-items: flex-end;
 }
 .sat-4:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    transform: scale(1.5); 
 }
 .sat-5 {  
     background-image: url(../images/moon.JPG);
@@ -209,7 +219,21 @@ span {
     align-items: flex-end;
 }
 .sat-5:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    transform: scale(1.5); 
+}
+.sat-6 {  
+  background-image: url(../images/plenty-of-brew-img1.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.sat-6:hover {
+  /* opacity: 0.5; */
+  transform: scale(1.5); 
 }
 address {
     font-weight: bold;
@@ -269,9 +293,9 @@ address {
     .img {
       margin-left: 0;
     }
-    .contact-me {
+    /* .contact-me {
 
-    }
+    } */
     .box-left {
       font-size: 20px;
     }
