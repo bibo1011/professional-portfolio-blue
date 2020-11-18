@@ -217,7 +217,7 @@ span {
     transform: scale(1.5); 
 }
 .sat-5 {  
-    background-image: url(../images/moon.JPG);
+    background-image: url(../images/simple-mrp.png);
     background-size: cover;
     background-position: center;
     display: flex;
